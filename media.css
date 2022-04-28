@@ -1,0 +1,72 @@
+@media screen and (max-width: 1250px){
+    .dynamic-text li{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width: 1200px){
+    .hero-intro .line{
+        font-size: 90px !important;
+        line-height: 90px !important;
+    }
+    .project .project-image img{
+        width: 550px !important;
+    }
+    h2.heading{
+        font-size: 38px !important;
+        left: 220px !important;
+    }
+    .project-details{
+        width: 485px !important;
+    }
+    .other-projects > div {
+        width: 980px !important;
+    }
+    .other-project{
+        margin-bottom: 10px !important;
+        width: 320px !important;
+    }
+    h2.heading::before{
+        left: 440px !important;
+    }
+}
+@media screen and (max-width: 1150px){
+    .other-projects > div {
+        width: 900px !important;
+    }
+    .other-project{
+        margin-bottom: 10px !important;
+        width: 295px !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .dynamic-text li{
+        width: 95% !important;
+    }
+    .hero-intro .line{
+        font-size: 85px !important;
+        line-height: 85px !important;
+    }
+    .project .project-image img{
+        width: 510px !important;
+    }
+    h2.heading{
+        font-size: 37px !important;
+        left: 260px !important;
+    }
+    .project-details{
+        width: 465px !important;
+    }
+    .other-projects > div {
+        width: 880px !important;
+    }
+    .other-project{
+        padding: 20px !important;
+        width: 285px !important;
+        height: 300px !important;
+    }
+    .other-project .heading-links > svg{
+        width: 35px !important;
+        height: 35px !important;
+    }
+}

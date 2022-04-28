@@ -1,0 +1,438 @@
+.about{
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about h2{
+    font-size: 160px;
+    line-height: 135px;
+    font-family: 'Teko', sans-serif;
+    overflow: hidden;
+    color: #a8b2d1;
+}
+.about h2:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 2px #64ffda;
+}
+.about-me{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 50px;
+}
+.about-me p{
+    font-size: 40px;
+    color: #a8b2d1;
+    line-height: 60px;
+}
+.about-me h2{
+    font-size: 200px;
+    line-height: 220px;
+    font-family: 'Teko', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 2px #64ffda;
+    overflow: hidden;
+}
+.about-me p:last-child{
+    position: relative;
+    left: 650px;
+    width: 450px;
+}
+.about-desc{
+    color: #8892b0;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 30px 20px 30px 50px;
+}
+.about-desc p{
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+p.lead{
+    font-size: 45px;
+    margin-top: 60px;
+    color: #a8b2d1;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skills h2, .nft-skills h2{
+    display: flex;
+    font-size: 34px;
+    color: #a8b2d1;
+    line-height: 40px;
+    border-bottom: 1px solid #64ffda;
+}
+.skills h2 p, .nft-skills h2 p{
+    margin: 0 15px;
+    color: transparent;
+    -webkit-text-stroke: 1px #64ffda;
+    background: linear-gradient(90deg,transparent,transparent 50%,#64ffda 0);
+    background-size: 200%;
+    transition: background .5s cubic-bezier(1,.01,.13,1);
+    -webkit-background-clip: text;
+}
+.skills h2 p:hover, .nft-skills h2 p:hover{
+    background-position: 100%;
+}
+.skills .skill, .nft-skills .skill{
+    margin-top: 50px;
+}
+.skills .skill p, .nft-skills .skill p{
+    color: #8892b0;
+    font-size: 27px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .about h2{
+        font-size: 150px;
+        line-height: 125px;
+    }
+    .about-me h2{
+        font-size: 180px;
+        line-height: 200px;
+    }
+    .about-me p:last-child{
+        left: 550px;
+    }
+    .about-me{
+        margin-left: 40px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 40px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .about h2{
+        font-size: 140px;
+        line-height: 125px;
+    }
+    .about-me h2{
+        font-size: 160px;
+        line-height: 180px;
+    }
+    .about-me p:last-child{
+        left: 430px;
+    }
+    .about-me{
+        margin-left: 30px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 30px;
+    }
+    .skills{
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 950px){
+    .about h2{
+        font-size: 135px;
+        line-height: 110px;
+    }
+    .about-me h2{
+        font-size: 150px;
+        line-height: 175px;
+    }
+    .about-me p{
+        font-size: 35px;
+    }
+    .about-me p:last-child{
+        left: 380px;
+        font-size: 35px;
+    }
+    .about-desc p{
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 28px;
+    }
+    .skills .skill, .nft-skills .skill{
+        margin-top: 40px;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .about-me{
+        margin-left: 25px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 25px;
+    }
+    .skills{
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 900px){
+    .about h2{
+        font-size: 125px;
+        line-height: 110px;
+    }
+    .about-me h2{
+        font-size: 130px;
+        line-height: 165px;
+    }
+    .about-me p{
+        font-size: 30px;
+    }
+    .about-me p:last-child{
+        left: 380px;
+        font-size: 30px;
+    }
+    .about-desc p{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    .skills .skill, .nft-skills .skill{
+        margin-top: 40px;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .about-me{
+        margin-left: 25px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 50px;
+    }
+    .skills{
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 850px){
+    .about h2{
+        font-size: 120px;
+        line-height: 105px;
+    }
+    .about-me h2{
+        font-size: 120px;
+        line-height: 160px;
+    }
+    .about-me p{
+        font-size: 28px;
+    }
+    .about-me p:last-child{
+        left: 350px;
+        font-size: 28px;
+    }
+    .about-desc p{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .skills h2, .nft-skills h2{
+        margin-top: 80px;
+        width: 70%;
+    }
+    .skills{
+        display: block;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .about-me{
+        margin-left: 20px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 25px;
+    }
+}
+@media screen and (max-width: 800px){
+    .about h2{
+        font-size: 100px;
+        line-height: 105px;
+    }
+    .about-me h2{
+        font-size: 100px;
+        line-height: 120px;
+    }
+    .about-me p{
+        font-size: 26px;
+    }
+    .about-me p:last-child{
+        left: 270px;
+        font-size: 26px;
+    }
+    .about-desc p{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about-me{
+        margin-left: 20px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 25px;
+    }
+}
+@media screen and (max-width: 700px){
+    .about h2{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .skills h2, .nft-skills h2{
+        font-size: 32px;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about-me{
+        margin-left: 20px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 20px;
+    }
+    .skills{
+        margin: 0 25px;
+    }
+}
+@media screen and (max-width: 650px){
+    .about h2{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .about-me h2{
+        font-size: 90px;
+        line-height: 100px;
+    }
+    .about-me{
+        height: 90vh;
+    }
+    .about-me p:last-child{
+        left: 200px;
+    }
+    .skills h2, .nft-skills h2{
+        font-size: 32px;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about-me{
+        margin-left: 20px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    .about h2{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .about-me h2{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .about-me p:last-child{
+        left: 140px;
+    }
+    .skills h2, .nft-skills h2{
+        font-size: 28px;
+        margin-top: 50px;
+        width: 90%;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about-me{
+        margin-left: 10px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 15px;
+    }
+    .skills{
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .about-me h2{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .about-me p:last-child{
+        left: 100px;
+        font-size: 20px;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
+    .about-me{
+        margin-left: 10px;
+    }
+    .about-desc{
+        margin: 30px 20px 30px 10px;
+    }
+    .skills{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 460px){
+    .about h2{
+        font-size: 58px;
+        line-height: 60px;
+    }
+    .about-me h2{
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .about-me p:last-child{
+        left: 100px;
+        font-size: 20px;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
+    .skills h2, .nft-skills h2{
+        font-size: 26px;
+        width: 100%;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .about-me{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .about h2{
+        font-size: 50px;
+        line-height: 52px;
+    }
+    .about-me h2{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .about-me{
+        margin-left: 10px;
+    }
+    .about-me p:last-child{
+        left: 100px;
+        font-size: 18px;
+    }
+    .about-me p{
+        font-size: 18px;
+    }
+    .skills h2, .nft-skills h2{
+        font-size: 22px;
+        width: 100%;
+    }
+    .skills .skill p, .nft-skills .skill p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
