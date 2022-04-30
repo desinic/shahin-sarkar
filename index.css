@@ -101,17 +101,6 @@ h2.hero-name{
     height: 105px;
     overflow: hidden;
 }
-.dynamic-text li{
-    line-height: 105px;
-    position: relative;
-    width: 85%;
-    animation: slide 8s steps(2) infinite;
-}
-@keyframes slide{
-    100%{
-        top: -105px;
-    }
-}
 .dynamic-text li::after{
     content: "";
     position: absolute;
